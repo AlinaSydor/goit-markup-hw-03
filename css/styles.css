@@ -8,6 +8,7 @@ ol,li {list-style: none;
 margin: 0;
 padding-left: 0%;}
 button {cursor: pointer;}
+img {display: block}
 
 .container {
     width: 100%;
@@ -43,6 +44,7 @@ button {cursor: pointer;}
         text-align: left;
         text-transform: uppercase;
         margin-right: 76px;
+        padding: 24px 0
 }
 
 .logo-part {color: #2E2F42;}
@@ -50,7 +52,7 @@ button {cursor: pointer;}
 .header-list {display: flex;
 gap: 40px;
 margin-left: 76px;
-padding: 24px 0}
+}
 
 .header-item {
     color: #2E2F42;
@@ -131,6 +133,7 @@ padding: 188px 0;}
 gap: 24px;
 padding: 0 156px;
 width: calc(100% - 72px) / 4;
+
 }
 
 .section-two-item {}
