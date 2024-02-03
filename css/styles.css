@@ -32,7 +32,6 @@ img {display: block}
     align-items: center;
 }
 
-.header-adress {}
 .header-logo {
     color: #4D5AE5;;
     font-family: Raleway, sans-serif;
@@ -64,7 +63,8 @@ gap: 40px;
 .header-item:hover {color:#404BBF}
 .header-item:focus {color:#404BBF;}
 
-.header-adress {font-style: normal;}
+.header-adress {font-style: normal;
+padding: 24px 0;}
 .header-adress-list {display: flex;
 gap: 40px;}
 .header-adress-item {
@@ -85,9 +85,10 @@ gap: 40px;}
 .section {padding: 120px 0;}
 
 .main-section-one {background-color:  #2E2F42;
+    padding: 188px 0
 }
 
-.container-one {padding: 188px 0;}
+.container-one {}
 .main-one-text {
     color: white;
         font-size: 56px;
@@ -146,7 +147,7 @@ margin: 0 auto;
 padding: 0 156px;
 }
 
-.section-two-item {width: calc(100% - 72px) / 4;}
+.section-two-item {width: calc((100% - 72px) / 4);}
 
 .main-two-lead {
     color: #2E2F42;
@@ -169,7 +170,7 @@ padding: 0 156px;
 
 .main-section-three {background-color: #F4F4FD;
 text-transform: capitalize;
-padding: 120px 156px;}
+padding: 120px 0;}
 
 .section-three-subtitle {
     color: #2E2F42;
@@ -184,7 +185,6 @@ padding: 120px 156px;}
 
 .section-three-list {display: flex;
 gap: 24px;
-padding: 0;
 }
 
 .section-three-item {background-color: white;
