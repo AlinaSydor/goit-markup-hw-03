@@ -148,7 +148,7 @@ margin: 0 auto;
 padding: 0 156px;
 }
 
-.section-two-item {width: calc((100% - 72px) / 4);}
+.section-two-item {width: calc(1158px - 72px) / 4;}
 
 .main-two-lead {
     color: #2E2F42;
