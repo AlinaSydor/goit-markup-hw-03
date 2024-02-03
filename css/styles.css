@@ -144,8 +144,6 @@ gap: 40px;}
 
 .section-two-list {display: flex;
 gap: 24px;
-margin: 0 auto;
-padding: 0 156px;
 }
 
 .section-two-item {width: calc((100% - 72px) / 4);}
